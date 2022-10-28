@@ -25,7 +25,7 @@ Ao mudar o valor da variável "CREATE" para "true", o item "DataDefaultValuesTes
 ![user_endpoint](readme_images/User.png)
 
 #### WebHooks
-![webhook_endpoint](readme_images/Webhook.png)
+![webhook_endpoint](readme_images/webhook.png)
 ## Regras
 Todas as regras de usuário, solicitação de recursos, criação / alteração de webhooks estão localizadas no projeto "PixViewer.BLL"
 
