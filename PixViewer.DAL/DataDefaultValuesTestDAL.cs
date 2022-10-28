@@ -17,7 +17,6 @@ namespace PixViewer.DAL {
       Console.WriteLine("ADD MOD & ADM: " + ADDADMIN());
     }
 
-
     private static string TB_ACTIONS() {
       using var cli = DB.GetConnection();
       var query = new StringBuilder();
@@ -55,7 +54,6 @@ namespace PixViewer.DAL {
       return cli.Run(query.ToString());
     }
 
-
     public static void RESET_TABS() {
       using var cli = DB.GetConnection();
       var query = new StringBuilder();
@@ -69,7 +67,6 @@ namespace PixViewer.DAL {
       query.AppendLine(" DROP TABLE TB_HISTORIC_USER ");
 
       Console.WriteLine("RESET: " + cli.Run(query.ToString()));
-
     }
 
     private static string ADDADMIN() {
