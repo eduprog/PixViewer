@@ -1,8 +1,6 @@
 ﻿using PixViewer.BLL;
 using PixViewer.DAL;
 using PixViewer.Models.API;
-using PixViewer.Models.Project.Input;
-using PixViewer.Project.Entities;
 using PixViewer.Utils;
 
 bool PIXTESTE = false;
