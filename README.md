@@ -70,9 +70,12 @@ Por fim, temos as cadeias de conexão com banco de dados sqlserver, o servidor i
 
 ## Uso da aplicação
 Na solução da aplicação, é possível fazer um gerenciamento utilizando o console de testes no arquivo "program" ![console_testes](readme_images/ConsoleTeste.png)
-Ao mudar o valor da variável "CREATE" para "true", o item "DataDefaultValuesTestDAL.Fill()" ![default_values](readme_images/DefaultValuesFill.png) será executado para criar uma conta administradora padrão e preencher as tabelas com os valores fixos necessários para o funcionamento da aplicação. Ao criar o administrador padrão, será possível usar o endpoint de login para acessar os registros. O dev pode alterar os registros diretamnete no banco casos veja uma necessidade.
+
+Ao mudar o valor da variável "CREATE" para "true", o item "DataDefaultValuesTestDAL.Fill()" será executado para criar uma conta administradora padrão e preencher as tabelas com os valores fixos necessários para o funcionamento da aplicação. Ao criar o administrador padrão, será possível usar o endpoint de login para acessar os registros. O dev pode alterar os registros diretamente no banco casos veja uma necessidade.
 - Usuário ADM: [Login = adm, Password = 123]
 - Usuário MOD: [Login = mod, Password = 123]
+
+![default_values](readme_images/DefaultValuesFill.png)
 
 ### Endpoints
 #### Login
